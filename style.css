@@ -1,0 +1,45 @@
+/* Configurando familia de fontes para o projeto */
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Figtree";
+    src: url(assets/fonts/static/Figtree-Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree", sans-serif;
+}
+
+article {
+    background-color: hsl(0, 100%, 100%);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color: hsl(0, 0%, 7%);
+    border-style: solid;
+    padding: 24px;
+    width: 384px;
+    box-shadow: 8px 8px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+p {
+    padding-top: 40px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    background-color: hsl(47, 88%, 63%);
+}
