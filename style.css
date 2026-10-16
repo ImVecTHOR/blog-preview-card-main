@@ -78,7 +78,8 @@ p+p {
 h1 {
     margin-bottom: 12px;
     font-weight: 800;
-    font-size: clamp(1rem, 2.5vw, 2rem);}
+    font-size: clamp(1rem, 2.5vw, 2rem);
+}
 
 h1:hover {
     color: hsl(47, 88%, 63%);
